@@ -41,10 +41,7 @@ This is the **Progress** module of the *Empower Young Minds* educational platfor
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/empower-progress.git
-   cd empower-progress
-Open in browser:
-
+https://github.com/RavenZedo/project-1.git
 Open PROJECTSITE.html or progress.html in your browser
 
 OR use VS Code with the Live Server extension
