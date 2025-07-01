@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Progress - Empower Young Minds</title>
+  <link rel="stylesheet" href="PROJECTSITE.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Empower</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="PROJECTSITE.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="progress.html">Progress</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Progress Scroll Indicator -->
+  <div id="progressContainer"><div id="progressBar"></div></div>
+
+  <!-- Page Content -->
+  <main class="progress-page">
+
+    <!-- Section: Header -->
+    <section class="progress-hero" data-aos="fade-down">
+      <h1>Track Your Learning Progress</h1>
+      <p>Stay up to date with your course completion, schedule, and upcoming tasks</p>
+    </section>
+
+    <!-- Section: Completion Progress -->
+    <section class="progress-tracker" data-aos="fade-up">
+      <h2>Course Completion</h2>
+
+      <div class="course-bar">
+        <p>HTML</p>
+        <div class="bar"><div style="width: 80%;">80%</div></div>
+      </div>
+      <div class="course-bar">
+        <p>CSS</p>
+        <div class="bar"><div style="width: 55%;">55%</div></div>
+      </div>
+      <div class="course-bar">
+        <p>JavaScript</p>
+        <div class="bar"><div style="width: 30%;">30%</div></div>
+      </div>
+    </section>
+
+    <!-- Section: Choose Course -->
+ <section class="calendar-scheduler" data-aos="zoom-in">
+  <h2>Schedule a Course</h2>
+
+  <div class="calendar-box">
+    <label for="courseSelect">Select Course:</label>
+    <select id="courseSelect">
+      <option value="">-- Select --</option>
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+      <option value="UI/UX">UI/UX</option>
+    </select>
+
+    <label for="datePicker">Pick Date:</label>
+    <input type="date" id="datePicker" />
+
+    <button class="ctabutton" onclick="scheduleCourse()">Schedule</button>
+  </div>
+
+  <div class="scheduled-output">
+    <h3>Scheduled Courses</h3>
+    <ul id="scheduledList"></ul>
+  </div>
+</section>
+
+
+    <!-- Section: Calendar -->
+    <section class="calendar" data-aos="fade-up">
+      <h2>Upcoming Events</h2>
+      <ul class="calendar-list">
+        <li><strong>July 6:</strong> HTML Basics Workshop</li>
+        <li><strong>July 10:</strong> CSS Challenge Round</li>
+        <li><strong>July 15:</strong> JavaScript Interactive Quiz</li>
+      </ul>
+    </section>
+
+    <!-- Section: To Be Scheduled -->
+    <section class="tbs-section" data-aos="fade-up">
+      <h2>To Be Scheduled</h2>
+      <ul class="tbs-list">
+        
+        <li>UI/UX Design Crash Course</li>
+        <li>Python Hands-on Session</li>
+        <li>ReactJS Starter Bootcamp</li>
+      </ul>
+
+    </section>
+    
+
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+  <script src="PROJECTSITE.js"></script>
+</body>
+</html>

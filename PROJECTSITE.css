@@ -1,0 +1,1043 @@
+body {
+    background-color: #f7f7f7;
+    COLOR: #333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero {
+    padding: 100px;
+}
+
+.HERO1 {
+    color: black;
+}
+
+.HERO2 {
+    color: rgb(80, 237, 122);
+
+}
+
+#highlight {
+    color: #dbfbe0;
+}
+
+/*fonts and all */
+
+.feature {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px;
+}
+
+.fitem {
+    padding: 20px 0;
+}
+
+.ftitle {
+    font-size: 2rem;
+    font-weight: 500px;
+    color: rgb(80, 237, 122);
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.fdescription {
+    text-align: center;
+
+}
+
+.cta {
+
+    padding: 100px;
+    text-align: center;
+    background-color: #5bb471;
+    color: aliceblue;
+
+}
+
+.ctadescription {
+
+    padding: 15px 0;
+    color: #dbfbe0;
+
+}
+
+.ctabutton {
+
+    padding: 10px 20px;
+
+}
+
+/*box model video section*/
+
+.video {
+    text-align: center;
+    padding: 100px;
+    font-weight: 500;
+}
+
+.vtitle {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.vdescription {
+    margin-top: 10px;
+    font-weight: 300;
+    color: #6e6e6e;
+
+}
+
+.vcontrols {
+    margin-top: 20px;
+
+}
+
+.vbutton {
+    margin: 10px;
+
+    border: 1px solid #5bb471;
+    background: none;
+    padding: 10px 20px;
+
+}
+
+.vbutton2 {
+
+    border: 1px solid #5bb471;
+    background: none;
+    padding: 10px 20px;
+
+}
+
+.vcontainer {
+
+    margin: 20px auto;
+    background-color: #ccc;
+    width: 100%;
+    height: 500px;
+    box-shadow: 1px 4px 7px 4px rgba(0, 0, 0, 0.33);
+}
+
+/* flex programs */
+
+.programs {
+
+    padding: 100px;
+    background-color: #eee;
+    padding-bottom: 200px;
+
+}
+.pcards {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.pcard {
+    background-color: #b5b5b5;
+    padding: 30px;
+    flex-basis: 30%;
+    height: 300px;
+}
+
+/*form section*/
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 50px;
+    background-color: #f8f9fa;
+
+}
+
+.elementleft {
+    flex: 1;
+}
+
+.elementright {
+    flex: 1;
+}
+
+.esubtitles {
+    color: #5d5d5d;
+
+}
+
+.eform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.placeholder {
+    background-color: #302f2f;
+    width: 100%;
+    height: 100%;
+}
+
+.elist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.eitem {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #5d5d5d;
+}
+
+.eitem::before {
+    content: "->";
+    margin-top: 10px;
+    color: #25ff50;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formgroup label {
+    color: #333;
+    font-weight: 500;
+
+}
+
+.formgroup input,
+.formgroup select {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.formgroup input:focus .formgroup select:focus {
+
+    outline: none;
+    border-color: #34c759;
+    box-shadow: 0 0 0 2px rgba(52, 199, 89, 0.2);
+}
+
+.formgroup select {
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.formgroup option {
+    padding: 10px;
+}
+
+.ebutton {
+    background-color: #34c759;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 1s;
+
+}
+
+.ebutton:hover {
+    background-color: #25ff50;
+}
+
+/*now adding images*/
+
+.hero {
+    height: 50vh;
+    background-image: url("https://media.istockphoto.com/id/1189962383/photo/contemporary-young-women-working-in-cafe.jpg?s=612x612&w=0&k=20&c=b1rmEdKih4VpOPJrQH1Ki1wE6wkvjmgFSPaPlew_o5w=");
+    background-size: contain;
+    background-position: center;
+    background-color: #302f2f;
+    background-blend-mode: overlay;
+    text-align: center;
+    align-content: center;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.f1 {
+    flex-basis: 50%;
+}
+
+.fimage {
+    flex-basis: 50%;
+
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ctatitle {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ctabutton:hover {
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+
+.vbutton {
+    color: #5bb471;
+}
+
+.vbutton:hover {
+    background-color: #5bb471;
+    color: white;
+    cursor: pointer;
+}
+
+.vbutton2 {
+    color: #5bb471;
+}
+
+.vbutton2:hover {
+    background-color: #5bb471;
+    color: white;
+    cursor: pointer;
+}
+
+.vcontainer {
+    background-image: url("https://media.istockphoto.com/id/1214253752/video/gifted-beautiful-black-girl-sitting-at-the-desk-uses-laptop-writes-notes-for-the-paper-essay.jpg?s=640x640&k=20&c=FYJf8AaNjzVD5BGAmAQYLsVZVMlVMGvCbt5Or3IPEpE=");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: #302f2f;
+    height: 700px;
+}
+
+.pcard {
+
+    padding: 0;
+    background: none;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.cardimg {
+    width: 100%;
+    height: 700px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cardbutton {
+    background-color: #5bb471;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.cardbutton:hover {
+    background-color: #25ff50;
+}
+
+.elementimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.contact_us {
+    padding: 20px;
+    background-color: #ccc;
+    display: flex;
+
+}
+
+.last {
+    background-color: #ccc;
+    flex-basis: 20%;
+
+}
+
+.lb {
+    background-color: #5bb471;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.lb:hover {
+    background-color: #25ff50;
+}
+
+.navbar {
+    background-color: #5bb471;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar li a:hover {
+    color: #dbfbe0;
+}
+/* Calm, Cool, Modern UI Updates */
+
+/* Global reset and smooth behavior */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9fbfc;
+  color: #2c3e50;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4caf84;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero */
+.hero {
+  background-image: url("https://media.istockphoto.com/id/1189962383/photo/contemporary-young-women-working-in-cafe.jpg?s=612x612&w=0&k=20&c=b1rmEdKih4VpOPJrQH1Ki1wE6wkvjmgFSPaPlew_o5w=");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.HERO1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.HERO2 {
+  font-size: 1.5rem;
+}
+
+#highlight {
+  color: #9fffb5;
+  font-weight: bold;
+}
+
+/* Features */
+.feature {
+  display: flex;
+  gap: 30px;
+  padding: 80px 40px;
+  flex-wrap: wrap;
+}
+
+.f1, .fimage {
+  flex: 1 1 300px;
+}
+
+.fitem {
+  margin-bottom: 20px;
+}
+
+.ftitle {
+  font-size: 1.8rem;
+  color: #34c759;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+.fdescription {
+  color: #444;
+}
+
+.image1 {
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* CTA */
+.cta {
+  background-color: #5bb471;
+  color: #fff;
+  text-align: center;
+  padding: 60px 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.ctabutton {
+  background-color: #fff;
+  color: #5bb471;
+  padding: 12px 28px;
+  border: none;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.ctabutton:hover {
+  background-color: #eaffef;
+}
+
+/* Video Section */
+.video {
+  text-align: center;
+  padding: 60px 30px;
+  background-color: #f2fef4;
+}
+
+.vcontainer {
+  background-image: url("https://media.istockphoto.com/id/1214253752/video/gifted-beautiful-black-girl-sitting-at-the-desk-uses-laptop-writes-notes-for-the-paper-essay.jpg?s=640x640&k=20&c=FYJf8AaNjzVD5BGAmAQYLsVZVMlVMGvCbt5Or3IPEpE=");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+/* Programs */
+.programs {
+  padding: 80px 40px;
+  background-color: #f0f0f0;
+}
+
+.pcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.pcard {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  flex: 1 1 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardimg {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.pcard h3 {
+  padding: 16px 20px 0;
+  font-size: 1.25rem;
+}
+
+.pcard p {
+  padding: 0 20px 20px;
+  color: #666;
+  flex-grow: 1;
+}
+
+.cardbutton {
+  background-color: #34c759;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 0 0 12px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cardbutton:hover {
+  background-color: #2aa14b;
+}
+
+/* Form Section */
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 80px 40px;
+  background-color: #f8f9fa;
+}
+
+.elementleft, .elementright {
+  flex: 1 1 300px;
+}
+
+.elementimg {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.eform {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formgroup input, .formgroup select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.ebutton {
+  background-color: #34c759;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ebutton:hover {
+  background-color: #25ff50;
+}
+
+/* Footer */
+.contact_us {
+  background-color: #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.last {
+  flex: 1 1 200px;
+}
+
+.last h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.last li {
+  list-style: none;
+  margin-bottom: px;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .feature, .element, .pcards {
+    flex-direction: column;
+  }
+
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .HERO1 {
+    font-size: 2rem;
+  }
+
+  .HERO2 {
+    font-size: 1.2rem;
+  }
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #4caf84;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+.navbar.shrink {
+  padding: 8px 20px;
+  background-color: #3fae6a;
+  transition: all 0.3s ease;
+}
+.cardbutton,
+.ctabutton,
+.ebutton,
+.lb {
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.cardbutton:hover,
+.ctabutton:hover,
+.ebutton:hover,
+.lb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.pcard {
+  transition: all 0.3s ease;
+}
+
+.pcard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  background-color: #34c759;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#backToTop:hover {
+  background-color: #25a44c;
+}
+#faqToggle {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  background-color: #4caf84;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#faqBox {
+  position: fixed;
+  bottom: 90px;
+  left: 40px;
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  display: none;
+  z-index: 1000;
+}
+/* Progress Page */
+
+.progress-tracker {
+  padding: 60px 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f0fff4;
+  border-radius: 12px;
+}
+
+.course-bar {
+  margin-bottom: 25px;
+}
+
+.course-bar p {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.course-bar .bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.course-bar .bar div {
+  height: 100%;
+  background-color: #34c759;
+  color: white;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 24px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+/* -------- Progress Page Styling -------- */
+
+.progress-page {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.progress-hero {
+  text-align: center;
+  padding: 30px;
+  background-color: #f0fff4;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.progress-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.progress-hero p {
+  color: #555;
+}
+
+/* Choose Course Section */
+.choose-course {
+  text-align: center;
+  padding: 40px;
+  background-color: #f5f7ff;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+.choose-course select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 20px 10px;
+}
+
+.choose-course button {
+  margin-top: 10px;
+}
+
+/* To Be Scheduled */
+.tbs-section {
+  margin-top: 40px;
+  background-color: #fff6f6;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.tbs-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Progress Bar (already included, but restated here for clarity) */
+.progress-tracker {
+  padding: 40px;
+  background-color: #f0fff0;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.course-bar {
+  margin-bottom: 25px;
+}
+
+.course-bar p {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.course-bar .bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.course-bar .bar div {
+  height: 100%;
+  background-color: #34c759;
+  color: white;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 24px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.choose-course label {
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+.choose-course input[type="date"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.calendar-scheduler {
+  background-color: #f8f9ff;
+  padding: 40px;
+  border-radius: 12px;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calendar-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.calendar-box select,
+.calendar-box input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.scheduled-output {
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.scheduled-output h3 {
+  margin-bottom: 10px;
+}
+
+#scheduledList {
+  list-style: disc;
+  padding-left: 20px;
+}
+
